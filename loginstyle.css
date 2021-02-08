@@ -1,0 +1,78 @@
+.form
+{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
+	margin: 20% auto;
+	width: 20%;
+	padding: 20px;
+	border-radius: 20px;
+
+}
+
+.form input
+{
+	display: inline-block;
+	
+	margin-top: 10px;
+	margin-bottom: 40px; 
+	padding: 10px;	
+	border-radius: 40px;
+	border: 1px solid black;
+
+}
+
+.field
+{
+	width :90%;
+}
+
+.field:hover
+{
+		border: 1px solid #03bafc;
+		box-shadow: 0 0 10px 0 rgba(3, 186, 252,0.5);
+}
+
+.form input::placeholder
+{
+	text-align: center;
+}
+
+.login-btn
+{
+	cursor: pointer;
+	width: 40%;
+	margin-left: 30%;
+	background : rgba(0,0,0,0.8);
+	color: white;
+	font-weight: bold;
+}
+
+.login-btn:hover
+{
+	background: #41a82a;
+	box-shadow: 0 0 10px 0 rgba(65, 168, 42,0.5);
+	color: white;
+	font-weight: bold;
+	color: white;
+ 	transition: all .3s;
+ 	border: 1px solid #41a82a;
+}
+
+.redbox
+{
+	background: rgba(255,0,0,0.2);
+	box-shadow: 0 0 20px 0 rgba(255,0,0,1);
+	margin: 50px auto;
+	text-align: center;
+	padding: 20px;
+	color: red;
+}
+
+.greenbox
+{
+	background: rgba(0,255,0,0.2);
+	box-shadow: 0 0 20px 0 rgba(0,255,0,1);
+	margin: 50px auto;
+	text-align: center;
+	padding: 20px;
+	color: green;
+}

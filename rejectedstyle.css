@@ -1,0 +1,17 @@
+.redbox
+{
+	background: rgba(255,0,0,0.2);
+	box-shadow: 0 0 20px 0 rgba(255,0,0,1);
+	margin: 50px auto;
+	width: 500px;
+	text-align: center;
+	padding: 20px;
+	color: red;
+}
+
+.error
+{
+	color: red;
+	text-align: center;
+	font-weight: bold;
+}

@@ -1,0 +1,55 @@
+
+table
+{
+	  border-collapse: collapse;
+	width: 100%;
+
+}
+.table th
+{
+
+	background: #efefef;
+	padding: 20px;
+	text-align: center;
+
+}
+
+.table td
+{
+	padding: 10px;
+	text-align: center;
+}
+
+.accept
+{
+	  background-color: white; 
+  	color: black; 
+  	border: 2px solid #4CAF50;
+	border-radius: 12px;
+	padding: 10px;
+	 transition-duration: 0.4s;
+  	cursor: pointer;
+  	margin-left: 50px;
+}
+
+.accept:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.reject
+{
+	 background-color: white; 
+  	color: black; 
+  	border: 2px solid red;
+	border-radius: 12px;
+	padding: 10px;
+	 transition-duration: 0.4s;
+  	cursor: pointer;
+  	margin-left: 20px;
+}
+
+.reject:hover {
+  background-color: red;
+  color: white;
+}
